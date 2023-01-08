@@ -1,0 +1,30 @@
+.navigation-bar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background: linear-gradient(to bottom,  rgba(61,59,60,1) 0%, #e1e4e6 100%);
+    
+  
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      padding: 20px;
+    }
+  
+    .navigation-links-container {
+      width: 50%;
+      height: 100%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .navigation-bar-link {
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+    }
+  }
+  
